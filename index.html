@@ -4,8 +4,396 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     
+    <div class="container header">
+        <img src="images/logo.png" alt="">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> Contact us </a>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      More products
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="Panda-commerce/index.html">Watch</a>
+                    <a class="dropdown-item" href="Panda-commerce/index.html">Shoes</a>
+                    <a class="dropdown-item" href="Panda-commerce/index.html">Backpack</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+
+
+          <div class="container carousel">
+            <div id="carouselExampleIndicators" class="carousel slide pink-bg" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="row align-items-center">
+                         <div class="col-md-7">
+                            <h1> Fresh Meat </h1>
+                            <h5> We supply the fresh and organic meat.  </h5>
+                            <a href="#"><button class="buy-button">Buy now</button></a> 
+                         </div>
+                         <div class="col-md-5">
+                            <img src="images/banner-1.jpg" class="d-block w-100" alt="...">
+                         </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="row align-items-center">
+                          <div class="col-md-7">
+                            <h1>  All grocery items  </h1>
+                            <h5>  We have all types of grocery products you need. </h5>
+                            <button class="buy-button">Buy now</button>
+                          </div>
+                          <div class="col-md-5">
+                            <img src="images/banner-2.jfif" class="d-block w-100" alt="...">
+                        </div>
+                       </div> 
+                  </div>   
+                  <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1>  Electronics items </h1>
+                            <h5>  We have all types of electronic products you need. </h5>
+                            <button class="buy-button">Buy now</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                     </div> 
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="container  Meat">
+              <h2> Meat </h2>
+           <div class="card-deck">
+               <div class="card">
+                 <img src="images/pd-14.jpg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title"> Beef Meat </h5>
+                   <p class="card-text">It is a long established fact that a reader will be. </p>
+                   <h3>৳600</h3>
+                   <button class="buy-button">Buy now</button>
+                 </div>
+               </div>
+               <div class="card">
+                 <img src="images/pd-15.jpg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title"> Chicken Meat</h5>
+                   <p class="card-text">It is a long established fact that a reader will be. </p>
+                   <h3>৳160</h3>
+                   <button class="buy-button">Buy now</button>
+                 </div>
+               </div>
+               <div class="card">
+                 <img src="images/pd-16.jpg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title"> Goat Meat </h5>
+                   <p class="card-text">It is a long established fact that a reader will be .</p>
+                   <h3>৳750</h3>
+                   <button class="buy-button">Buy now</button>
+                 </div>
+               </div>
+               <div class="card">
+                <img src="images/pd-17.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"> Duck Meat </h5>
+                  <p class="card-text">It is a long established fact that a reader will be. </p>
+                  <h3>৳550</h3>
+                  <button class="buy-button">Buy now</button>
+                </div>
+              </div>
+           </div> 
+         </div>
+
+         <div class="container Fish">
+          <h2> Fish </h2>
+       <div class="card-deck">
+           <div class="card">
+             <img src="images/pd-22.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title"> Hilsha Fish </h5>
+               <p class="card-text">It is a long established fact that a reader will be. </p>
+               <h3>৳1100</h3>
+               <button class="buy-button">Buy now</button>
+             </div>
+           </div>
+           <div class="card">
+             <img src="images/pd-23.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title"> Shrimp Fish </h5>
+               <p class="card-text">It is a long established fact that a reader will be. </p>
+               <h3>৳999</h3>
+               <button class="buy-button">Buy now</button>
+             </div>
+           </div>
+           <div class="card">
+             <img src="images/pd-24.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">  Rui Fish </h5>
+               <p class="card-text">It is a long established fact that a reader will be .</p>
+               <h3>৳850</h3>
+               <button class="buy-button">Buy now</button>
+             </div>
+           </div>
+           <div class="card">
+            <img src="images/pd-25.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Chitol Fish </h5>
+              <p class="card-text">It is a long established fact that a reader will be. </p>
+              <h3>৳1100</h3>
+              <button class="buy-button">Buy now</button>
+            </div>
+          </div>
+       </div> 
+     </div>
+
+            <div class="container  Fruits">
+                  <h2>Fruits</h2>
+               <div class="card-deck">
+                   <div class="card">
+                     <img src="images/pd-1.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <h5 class="card-title"> Banana </h5>
+                       <p class="card-text">It is a long established fact that a reader will be. </p>
+                       <h3>৳15</h3>
+                       <button class="buy-button">Buy now</button>
+                     </div>
+                   </div>
+                   <div class="card">
+                     <img src="images/pd-2.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <h5 class="card-title"> Guava </h5>
+                       <p class="card-text">It is a long established fact that a reader will be. </p>
+                       <h3>৳100</h3>
+                       <button class="buy-button">Buy now</button>
+                     </div>
+                   </div>
+                   <div class="card">
+                     <img src="images/pd-3.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <h5 class="card-title"> Mango </h5>
+                       <p class="card-text">It is a long established fact that a reader will be .</p>
+                       <h3>৳170</h3>
+                       <button class="buy-button">Buy now</button>
+                     </div>
+                   </div>
+                   <div class="card">
+                    <img src="images/pd-6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"> Apple </h5>
+                      <p class="card-text">It is a long established fact that a reader will be. </p>
+                      <h3>৳120</h3>
+                      <button class="buy-button">Buy now</button>
+                    </div>
+                  </div>
+               </div> 
+             </div>
+
+             <div class="container groceries">
+                <h2>Groceries</h2>
+             <div class="card-deck">
+                 <div class="card">
+                   <img src="images/pd-7.jpg" class="card-img-top" alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title"> Frutika </h5>
+                     <p class="card-text">It is a long established fact that a reader will be. </p>
+                     <h3>৳100</h3>
+                     <button class="buy-button">Buy now</button>
+                   </div>
+                 </div>
+                 <div class="card">
+                   <img src="images/pd-8.jpg" class="card-img-top" alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title"> Aci Pure Atta </h5>
+                     <p class="card-text">It is a long established fact that a reader will be. </p>
+                     <h3>৳45</h3>
+                     <button class="buy-button">Buy now</button>
+                   </div>
+                 </div>
+                 <div class="card">
+                   <img src="images/pd-9.jpg" class="card-img-top" alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title"> Dano Milk </h5>
+                     <p class="card-text">It is a long established fact that a reader will be .</p>
+                     <h3>৳650</h3>
+                     <button class="buy-button">Buy now</button>
+                   </div>
+                 </div>
+                 <div class="card">
+                  <img src="images/pd-10.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> Nescafe Classic Coffee </h5>
+                    <p class="card-text">It is a long established fact that a reader will be. </p>
+                    <h3>৳370</h3>
+                    <button class="buy-button">Buy now</button>
+                  </div>
+                </div>
+             </div> 
+           </div>
+
+           <div class="container  Electronics">
+            <h2>Electronics</h2>
+         <div class="card-deck">
+             <div class="card">
+               <img src="images/pd-11.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title"> Toshiba 32' Smart TV </h5>
+                 <p class="card-text">It is a long established fact that a reader will be. </p>
+                 <h3>৳35000</h3>
+                 <button class="buy-button">Buy now</button>
+               </div>
+             </div>
+             <div class="card">
+               <img src="images/pd-12.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title"> Walton Refrigerator </h5>
+                 <p class="card-text">It is a long established fact that a reader will be. </p>
+                 <h3>৳$46500</h3>
+                 <button class="buy-button">Buy now</button>
+               </div>
+             </div>
+             <div class="card">
+               <img src="images/pd-12.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title"> Samsung Washing machine </h5>
+                 <p class="card-text">It is a long established fact that a reader will be .</p>
+                 <h3>৳25000</h3>
+                 <button class="buy-button">Buy now</button>
+               </div>
+             </div>
+             <div class="card">
+              <img src="images/pd-13.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">  Microwave oven </h5>
+                <p class="card-text">It is a long established fact that a reader will be. </p>
+                <h3>৳12000</h3>
+                <button class="buy-button">Buy now</button>
+              </div>
+            </div>
+         </div> 
+       </div>
+
+       <div class="container  gadgets">
+        <h2> Gadgets </h2>
+     <div class="card-deck">
+         <div class="card">
+           <img src="images/pd-18.jpg" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title"> Amazon Alexa Echo Dot (3rd Gen) </h5>
+             <p class="card-text">It is a long established fact that a reader will be. </p>
+             <h3>৳4,900</h3>
+             <button class="buy-button">Buy now</button>
+           </div>
+         </div>
+         <div class="card">
+           <img src="images/pd-19.jpg" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title"> Apple air dot </h5>
+             <p class="card-text">It is a long established fact that a reader will be. </p>
+             <h3>৳1600</h3>
+             <button class="buy-button">Buy now</button>
+           </div>
+         </div>
+         <div class="card">
+           <img src="images/pd-20.jpg" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title"> Samsung smart charger </h5>
+             <p class="card-text">It is a long established fact that a reader will be .</p>
+             <h3>৳1350</h3>
+             <button class="buy-button">Buy now</button>
+           </div>
+         </div>
+         <div class="card">
+          <img src="images/pd-21.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> apple watch series 5 </h5>
+            <p class="card-text">It is a long established fact that a reader will be. </p>
+            <h3>৳23000</h3>
+            <button class="buy-button">Buy now</button>
+          </div>
+        </div>
+     </div> 
+   </div>
+      
+   
+      <section class="working-area">
+        <div class="container">
+                <div class="text-area">
+                  <h5>Payment Methods </h5>
+                  <img src="images/payment-item.png" alt="">
+                </div>
+                
+                <div class="list-area">
+                    <div class="list-1">
+                    <ul>
+                        <li id="bold-word">Customer Care</li>
+                        <li>Help Center</li>
+                        <li>How to Buy</li>
+                        <li>Track Your Order</li>
+                        <li>Returns & Refunds</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="list-2">
+                    <ul>
+                        <li id="bold-word">Terms</li>
+                        <li>About Daraz</li>
+                        <li>Careers</li>
+                        <li>Digital Payments</li>
+                        <li>Terms & Conditions</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+    </section>
+
+    <div class="footer-area">
+      <h6>All right reserved © Kenakata.com 2020</h6>
+    </div>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
